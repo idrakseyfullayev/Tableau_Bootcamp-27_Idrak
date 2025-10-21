@@ -1,0 +1,1165 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20241.24.0425.1340                               -->
+<workbook original-version='18.1' source-build='2024.1.2 (20241.24.0425.1340)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Gross_adds (1)' inline='true' name='federated.1a3tap21dkd26d10tjzzw02vzrp7' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Gross_adds (1)' name='stat-direct.0z8jyk30rul9ne1e3ns6k1348x0j'>
+            <connection batch-size='' class='stat-direct' directory='C:/Users/dell/Desktop/Tableau/Tableau_Course/Ders_4' encoding-error-limit='' filename='Gross_adds (1).sav' password='' server='' source-charset='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='stat-direct.0z8jyk30rul9ne1e3ns6k1348x0j' name='Gross_adds (1).sav' table='[Gross_adds (1).sav]' type='table' />
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='stat-direct.0z8jyk30rul9ne1e3ns6k1348x0j' name='Gross_adds (1).sav' table='[Gross_adds (1).sav]' type='table' />
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Gross_Add_Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Gross_Add_Date]</local-name>
+            <parent-name>[Gross_adds (1).sav]</parent-name>
+            <remote-alias>Gross_Add_Date</remote-alias>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gross_adds (1).sav_A440941B632A4047B799C73C286F5B04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tarif</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Tarif]</local-name>
+            <parent-name>[Gross_adds (1).sav]</parent-name>
+            <remote-alias>Tarif</remote-alias>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gross_adds (1).sav_A440941B632A4047B799C73C286F5B04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Onnet_Total_minutes_Feb</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Onnet_Total_minutes_Feb]</local-name>
+            <parent-name>[Gross_adds (1).sav]</parent-name>
+            <remote-alias>Onnet_Total_minutes_Feb</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gross_adds (1).sav_A440941B632A4047B799C73C286F5B04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Onnet_Total_minutes_Mar</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Onnet_Total_minutes_Mar]</local-name>
+            <parent-name>[Gross_adds (1).sav]</parent-name>
+            <remote-alias>Onnet_Total_minutes_Mar</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gross_adds (1).sav_A440941B632A4047B799C73C286F5B04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Onnet_Total_minutes_Apr</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Onnet_Total_minutes_Apr]</local-name>
+            <parent-name>[Gross_adds (1).sav]</parent-name>
+            <remote-alias>Onnet_Total_minutes_Apr</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gross_adds (1).sav_A440941B632A4047B799C73C286F5B04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Data_Feb</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Data_Feb]</local-name>
+            <parent-name>[Gross_adds (1).sav]</parent-name>
+            <remote-alias>Data_Feb</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gross_adds (1).sav_A440941B632A4047B799C73C286F5B04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Data_Mar</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Data_Mar]</local-name>
+            <parent-name>[Gross_adds (1).sav]</parent-name>
+            <remote-alias>Data_Mar</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gross_adds (1).sav_A440941B632A4047B799C73C286F5B04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Data_Apr</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Data_Apr]</local-name>
+            <parent-name>[Gross_adds (1).sav]</parent-name>
+            <remote-alias>Data_Apr</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gross_adds (1).sav_A440941B632A4047B799C73C286F5B04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Revenue_Feb</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Revenue_Feb]</local-name>
+            <parent-name>[Gross_adds (1).sav]</parent-name>
+            <remote-alias>Revenue_Feb</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gross_adds (1).sav_A440941B632A4047B799C73C286F5B04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Revenue_Mar</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Revenue_Mar]</local-name>
+            <parent-name>[Gross_adds (1).sav]</parent-name>
+            <remote-alias>Revenue_Mar</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gross_adds (1).sav_A440941B632A4047B799C73C286F5B04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Revenue_Apr</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Revenue_Apr]</local-name>
+            <parent-name>[Gross_adds (1).sav]</parent-name>
+            <remote-alias>Revenue_Apr</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gross_adds (1).sav_A440941B632A4047B799C73C286F5B04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Churn_May</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Churn_May]</local-name>
+            <parent-name>[Gross_adds (1).sav]</parent-name>
+            <remote-alias>Churn_May</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gross_adds (1).sav_A440941B632A4047B799C73C286F5B04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Churn_June</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Churn_June]</local-name>
+            <parent-name>[Gross_adds (1).sav]</parent-name>
+            <remote-alias>Churn_June</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gross_adds (1).sav_A440941B632A4047B799C73C286F5B04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Churn_July</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Churn_July]</local-name>
+            <parent-name>[Gross_adds (1).sav]</parent-name>
+            <remote-alias>Churn_July</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gross_adds (1).sav_A440941B632A4047B799C73C286F5B04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ofnet_Total_minutes_Feb</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Ofnet_Total_minutes_Feb]</local-name>
+            <parent-name>[Gross_adds (1).sav]</parent-name>
+            <remote-alias>Ofnet_Total_minutes_Feb</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gross_adds (1).sav_A440941B632A4047B799C73C286F5B04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ofnet_Total_minutes_Mar</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Ofnet_Total_minutes_Mar]</local-name>
+            <parent-name>[Gross_adds (1).sav]</parent-name>
+            <remote-alias>Ofnet_Total_minutes_Mar</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gross_adds (1).sav_A440941B632A4047B799C73C286F5B04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ofnet_Total_minutes_Apr</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Ofnet_Total_minutes_Apr]</local-name>
+            <parent-name>[Gross_adds (1).sav]</parent-name>
+            <remote-alias>Ofnet_Total_minutes_Apr</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gross_adds (1).sav_A440941B632A4047B799C73C286F5B04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Total Churn' datatype='real' name='[Calculation_422212531231129600]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Churn_May] + [Churn_June] + [Churn_July]' />
+      </column>
+      <column caption='Churn Rate' datatype='real' name='[Calculation_422212531233001473]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Calculation_422212531231129600]) / COUNT([__tableau_internal_object_id__].[Gross_adds (1).sav_A440941B632A4047B799C73C286F5B04])' />
+      </column>
+      <column caption='Churn Rate May' datatype='real' name='[Calculation_422212531241525250]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Churn_May]) / COUNT([__tableau_internal_object_id__].[Gross_adds (1).sav_A440941B632A4047B799C73C286F5B04])' />
+      </column>
+      <column caption='Churn Rate June' datatype='real' name='[Calculation_422212531244130307]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Churn_June]) / SUM(IF [Churn_May] = 0 THEN 1 END)' />
+      </column>
+      <column caption='Churn Rate Jule' datatype='real' default-format='p0.0%' name='[Calculation_422212531252162564]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Churn_July]) / SUM(IF [Churn_May] = 0 &#13;&#10;                       AND [Churn_June] = 0 THEN 1 END)' />
+      </column>
+      <column caption='Churn July' datatype='real' name='[Churn_July]' role='measure' type='quantitative' />
+      <column caption='Churn June' datatype='real' name='[Churn_June]' role='measure' type='quantitative' />
+      <column caption='Churn May' datatype='real' name='[Churn_May]' role='measure' type='quantitative' />
+      <column caption='Data Apr' datatype='real' name='[Data_Apr]' role='measure' type='quantitative' />
+      <column caption='Data Feb' datatype='real' name='[Data_Feb]' role='measure' type='quantitative' />
+      <column caption='Data Mar' datatype='real' name='[Data_Mar]' role='measure' type='quantitative' />
+      <column caption='Gross Add Date' datatype='date' name='[Gross_Add_Date]' role='dimension' type='ordinal' />
+      <column caption='Ofnet Total minutes Apr' datatype='real' name='[Ofnet_Total_minutes_Apr]' role='measure' type='quantitative' />
+      <column caption='Ofnet Total minutes Feb' datatype='real' name='[Ofnet_Total_minutes_Feb]' role='measure' type='quantitative' />
+      <column caption='Ofnet Total minutes Mar' datatype='real' name='[Ofnet_Total_minutes_Mar]' role='measure' type='quantitative' />
+      <column caption='Onnet Total minutes Apr' datatype='real' name='[Onnet_Total_minutes_Apr]' role='measure' type='quantitative' />
+      <column caption='Onnet Total minutes Feb' datatype='real' name='[Onnet_Total_minutes_Feb]' role='measure' type='quantitative' />
+      <column caption='Onnet Total minutes Mar' datatype='real' name='[Onnet_Total_minutes_Mar]' role='measure' type='quantitative' />
+      <column caption='Revenue Apr' datatype='real' name='[Revenue_Apr]' role='measure' type='quantitative' />
+      <column caption='Revenue Feb' datatype='real' name='[Revenue_Feb]' role='measure' type='quantitative' />
+      <column caption='Revenue Mar' datatype='real' name='[Revenue_Mar]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Gross_adds (1).sav' datatype='table' name='[__tableau_internal_object_id__].[Gross_adds (1).sav_A440941B632A4047B799C73C286F5B04]' role='measure' type='quantitative' />
+      <column-instance column='[Calculation_422212531241525250]' derivation='User' name='[usr:Calculation_422212531241525250:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_422212531244130307]' derivation='User' name='[usr:Calculation_422212531244130307:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_422212531252162564]' derivation='User' name='[usr:Calculation_422212531252162564:qk]' pivot='key' type='quantitative' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='en_GB' class='hyper' dbname='C:/Users/dell/AppData/Local/Temp/TableauTemp/#TableauTemp_0qhkgl60jzs6ve1aiakxi1puz200.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='10/20/2025 06:15:53 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Gross_Add_Date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Gross_Add_Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Gross_Add_Date</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Gross_adds (1).sav</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gross_adds (1).sav_A440941B632A4047B799C73C286F5B04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Tarif</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Tarif]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Tarif</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Gross_adds (1).sav</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gross_adds (1).sav_A440941B632A4047B799C73C286F5B04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Onnet_Total_minutes_Feb</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Onnet_Total_minutes_Feb]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Onnet_Total_minutes_Feb</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Gross_adds (1).sav</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3196</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gross_adds (1).sav_A440941B632A4047B799C73C286F5B04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Onnet_Total_minutes_Mar</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Onnet_Total_minutes_Mar]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Onnet_Total_minutes_Mar</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Gross_adds (1).sav</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2932</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gross_adds (1).sav_A440941B632A4047B799C73C286F5B04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Onnet_Total_minutes_Apr</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Onnet_Total_minutes_Apr]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Onnet_Total_minutes_Apr</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Gross_adds (1).sav</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2784</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gross_adds (1).sav_A440941B632A4047B799C73C286F5B04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Data_Feb</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Data_Feb]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Data_Feb</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Gross_adds (1).sav</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2879</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gross_adds (1).sav_A440941B632A4047B799C73C286F5B04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Data_Mar</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Data_Mar]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Data_Mar</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Gross_adds (1).sav</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2210</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gross_adds (1).sav_A440941B632A4047B799C73C286F5B04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Data_Apr</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Data_Apr]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Data_Apr</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Gross_adds (1).sav</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1674</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gross_adds (1).sav_A440941B632A4047B799C73C286F5B04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Revenue_Feb</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Revenue_Feb]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Revenue_Feb</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Gross_adds (1).sav</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>83</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gross_adds (1).sav_A440941B632A4047B799C73C286F5B04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Revenue_Mar</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Revenue_Mar]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Revenue_Mar</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Gross_adds (1).sav</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1545</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gross_adds (1).sav_A440941B632A4047B799C73C286F5B04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Revenue_Apr</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Revenue_Apr]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Revenue_Apr</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Gross_adds (1).sav</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1363</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gross_adds (1).sav_A440941B632A4047B799C73C286F5B04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Churn_May</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Churn_May]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Churn_May</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Gross_adds (1).sav</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gross_adds (1).sav_A440941B632A4047B799C73C286F5B04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Churn_June</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Churn_June]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Churn_June</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Gross_adds (1).sav</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gross_adds (1).sav_A440941B632A4047B799C73C286F5B04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Churn_July</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Churn_July]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Churn_July</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Gross_adds (1).sav</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gross_adds (1).sav_A440941B632A4047B799C73C286F5B04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Ofnet_Total_minutes_Feb</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Ofnet_Total_minutes_Feb]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Ofnet_Total_minutes_Feb</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Gross_adds (1).sav</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1873</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gross_adds (1).sav_A440941B632A4047B799C73C286F5B04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Ofnet_Total_minutes_Mar</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Ofnet_Total_minutes_Mar]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Ofnet_Total_minutes_Mar</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Gross_adds (1).sav</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1717</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gross_adds (1).sav_A440941B632A4047B799C73C286F5B04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Ofnet_Total_minutes_Apr</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Ofnet_Total_minutes_Apr]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Ofnet_Total_minutes_Apr</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Gross_adds (1).sav</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1545</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Gross_adds (1).sav_A440941B632A4047B799C73C286F5B04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1a3tap21dkd26d10tjzzw02vzrp7].[usr:Calculation_422212531252162564:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1a3tap21dkd26d10tjzzw02vzrp7].[usr:Calculation_422212531241525250:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1a3tap21dkd26d10tjzzw02vzrp7].[usr:Calculation_422212531244130307:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Azerbaijan&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Gross_adds (1).sav' id='Gross_adds (1).sav_A440941B632A4047B799C73C286F5B04'>
+            <properties context=''>
+              <relation connection='stat-direct.0z8jyk30rul9ne1e3ns6k1348x0j' name='Gross_adds (1).sav' table='[Gross_adds (1).sav]' type='table' />
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Chur Rate by Months'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Gross_adds (1)' name='federated.1a3tap21dkd26d10tjzzw02vzrp7' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1a3tap21dkd26d10tjzzw02vzrp7'>
+            <column caption='Churn Rate May' datatype='real' name='[Calculation_422212531241525250]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Churn_May]) / COUNT([__tableau_internal_object_id__].[Gross_adds (1).sav_A440941B632A4047B799C73C286F5B04])' />
+            </column>
+            <column caption='Churn Rate June' datatype='real' name='[Calculation_422212531244130307]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Churn_June]) / SUM(IF [Churn_May] = 0 THEN 1 END)' />
+            </column>
+            <column caption='Churn Rate Jule' datatype='real' default-format='p0.0%' name='[Calculation_422212531252162564]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Churn_July]) / SUM(IF [Churn_May] = 0 &#13;&#10;                       AND [Churn_June] = 0 THEN 1 END)' />
+            </column>
+            <column caption='Churn July' datatype='real' name='[Churn_July]' role='measure' type='quantitative' />
+            <column caption='Churn June' datatype='real' name='[Churn_June]' role='measure' type='quantitative' />
+            <column caption='Churn May' datatype='real' name='[Churn_May]' role='measure' type='quantitative' />
+            <_.fcp.ObjectModelTableType.true...column caption='Gross_adds (1).sav' datatype='table' name='[__tableau_internal_object_id__].[Gross_adds (1).sav_A440941B632A4047B799C73C286F5B04]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_422212531241525250]' derivation='User' name='[usr:Calculation_422212531241525250:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_422212531244130307]' derivation='User' name='[usr:Calculation_422212531244130307:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_422212531252162564]' derivation='User' name='[usr:Calculation_422212531252162564:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1a3tap21dkd26d10tjzzw02vzrp7].[usr:Calculation_422212531241525250:qk]' value='p0.0%' />
+            <format attr='text-format' field='[federated.1a3tap21dkd26d10tjzzw02vzrp7].[usr:Calculation_422212531244130307:qk]' value='p0.0%' />
+            <format attr='text-format' field='[federated.1a3tap21dkd26d10tjzzw02vzrp7].[usr:Calculation_422212531252162564:qk]' value='p0.0%' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1a3tap21dkd26d10tjzzw02vzrp7].[usr:Calculation_422212531252162564:qk]' />
+              <text column='[federated.1a3tap21dkd26d10tjzzw02vzrp7].[usr:Calculation_422212531244130307:qk]' />
+              <text column='[federated.1a3tap21dkd26d10tjzzw02vzrp7].[usr:Calculation_422212531241525250:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontalignment='0' fontsize='10'><![CDATA[Churn Rate May:        <[federated.1a3tap21dkd26d10tjzzw02vzrp7].[usr:Calculation_422212531241525250:qk]>]]></run>
+                <run fontalignment='0'>Æ&#10;</run>
+                <run bold='true' fontalignment='0' fontsize='10'><![CDATA[Churn Rate June:        <[federated.1a3tap21dkd26d10tjzzw02vzrp7].[usr:Calculation_422212531244130307:qk]>]]></run>
+                <run fontalignment='0'>Æ&#10;</run>
+                <run bold='true' fontalignment='0' fontsize='10'><![CDATA[Churn Rate Jule:        <[federated.1a3tap21dkd26d10tjzzw02vzrp7].[usr:Calculation_422212531252162564:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{54D021BF-187C-4CCD-A5B6-7C65785565AB}' />
+    </worksheet>
+    <worksheet name='Measures'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Gross_adds (1)' name='federated.1a3tap21dkd26d10tjzzw02vzrp7' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1a3tap21dkd26d10tjzzw02vzrp7'>
+            <column caption='Churn Rate May' datatype='real' name='[Calculation_422212531241525250]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Churn_May]) / COUNT([__tableau_internal_object_id__].[Gross_adds (1).sav_A440941B632A4047B799C73C286F5B04])' />
+            </column>
+            <column caption='Churn Rate June' datatype='real' name='[Calculation_422212531244130307]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Churn_June]) / SUM(IF [Churn_May] = 0 THEN 1 END)' />
+            </column>
+            <column caption='Churn Rate Jule' datatype='real' default-format='p0.0%' name='[Calculation_422212531252162564]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Churn_July]) / SUM(IF [Churn_May] = 0 &#13;&#10;                       AND [Churn_June] = 0 THEN 1 END)' />
+            </column>
+            <column caption='Churn July' datatype='real' name='[Churn_July]' role='measure' type='quantitative' />
+            <column caption='Churn June' datatype='real' name='[Churn_June]' role='measure' type='quantitative' />
+            <column caption='Churn May' datatype='real' name='[Churn_May]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Tarif]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='Gross_adds (1).sav' datatype='table' name='[__tableau_internal_object_id__].[Gross_adds (1).sav_A440941B632A4047B799C73C286F5B04]' role='measure' type='quantitative' />
+            <column-instance column='[Tarif]' derivation='None' name='[none:Tarif:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_422212531241525250]' derivation='User' name='[usr:Calculation_422212531241525250:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_422212531244130307]' derivation='User' name='[usr:Calculation_422212531244130307:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_422212531252162564]' derivation='User' name='[usr:Calculation_422212531252162564:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1a3tap21dkd26d10tjzzw02vzrp7].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1a3tap21dkd26d10tjzzw02vzrp7].[usr:Calculation_422212531241525250:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1a3tap21dkd26d10tjzzw02vzrp7].[usr:Calculation_422212531244130307:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1a3tap21dkd26d10tjzzw02vzrp7].[usr:Calculation_422212531252162564:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1a3tap21dkd26d10tjzzw02vzrp7].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1a3tap21dkd26d10tjzzw02vzrp7].[usr:Calculation_422212531241525250:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1a3tap21dkd26d10tjzzw02vzrp7].[usr:Calculation_422212531244130307:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1a3tap21dkd26d10tjzzw02vzrp7].[usr:Calculation_422212531252162564:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1a3tap21dkd26d10tjzzw02vzrp7].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1a3tap21dkd26d10tjzzw02vzrp7].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1a3tap21dkd26d10tjzzw02vzrp7].[Multiple Values]</rows>
+        <cols>([federated.1a3tap21dkd26d10tjzzw02vzrp7].[none:Tarif:nk] / [federated.1a3tap21dkd26d10tjzzw02vzrp7].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{3594689A-5ED3-495F-AE2A-E3FA917D05C6}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{EB7E21BB-C846-435A-9423-1A28226ECFD8}' />
+    </worksheet>
+    <worksheet name='Total  Churn Rate'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Gross_adds (1)' name='federated.1a3tap21dkd26d10tjzzw02vzrp7' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1a3tap21dkd26d10tjzzw02vzrp7'>
+            <column caption='Total Churn' datatype='real' name='[Calculation_422212531231129600]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Churn_May] + [Churn_June] + [Churn_July]' />
+            </column>
+            <column caption='Churn Rate' datatype='real' name='[Calculation_422212531233001473]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Calculation_422212531231129600]) / COUNT([__tableau_internal_object_id__].[Gross_adds (1).sav_A440941B632A4047B799C73C286F5B04])' />
+            </column>
+            <column caption='Churn July' datatype='real' name='[Churn_July]' role='measure' type='quantitative' />
+            <column caption='Churn June' datatype='real' name='[Churn_June]' role='measure' type='quantitative' />
+            <column caption='Churn May' datatype='real' name='[Churn_May]' role='measure' type='quantitative' />
+            <_.fcp.ObjectModelTableType.true...column caption='Gross_adds (1).sav' datatype='table' name='[__tableau_internal_object_id__].[Gross_adds (1).sav_A440941B632A4047B799C73C286F5B04]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_422212531233001473]' derivation='User' name='[usr:Calculation_422212531233001473:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1a3tap21dkd26d10tjzzw02vzrp7].[usr:Calculation_422212531233001473:qk]' value='p0.0%' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1a3tap21dkd26d10tjzzw02vzrp7].[usr:Calculation_422212531233001473:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='10'>Churn Rate   &lt;</run>
+                <run bold='true' fontsize='10'>[federated.1a3tap21dkd26d10tjzzw02vzrp7].[usr:Calculation_422212531233001473:qk]</run>
+                <run bold='true' fontsize='10'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{F418B114-E08D-4B02-B53D-1BBB45DB4423}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='Total  Churn Rate'>
+      <cards>
+        <edge name='left'>
+          <strip size='166'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B2B577E6-7314-4379-9672-9B430F9E9F9B}' />
+    </window>
+    <window class='worksheet' name='Chur Rate by Months'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1a3tap21dkd26d10tjzzw02vzrp7].[yr:Gross_Add_Date:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{E89F1E4B-F6F7-420B-82D0-93CF3286EF89}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Measures'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1a3tap21dkd26d10tjzzw02vzrp7].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1a3tap21dkd26d10tjzzw02vzrp7].[:Measure Names]</field>
+            <field>[federated.1a3tap21dkd26d10tjzzw02vzrp7].[none:Tarif:nk]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{D1D41CBD-3AA2-4460-B5E9-86764C2F8281}' />
+    </window>
+    <window class='worksheet' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{962BE033-7EB9-4A24-9D82-06F96D7A7319}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='58' name='Chur Rate by Months' width='184'>
+      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
+      AAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Measures' width='192'>
+      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
+      8iIMc40AAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 4' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='24' name='Total  Churn Rate' width='144'>
+      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
+      fwlWJsQQGs6oAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
